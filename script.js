@@ -1,8 +1,11 @@
 // Check if the js is linked correctly
+
 console.log("Hello, world!");
 let humanScore = 0;
 let computerScore = 0; 
+
 // Create a new function called getComputerChoice
+
 function playGame() {function getComputerChoice() {
         let number = Math.floor(Math.random() * 3);
         if (number === 0) {
@@ -14,7 +17,9 @@ function playGame() {function getComputerChoice() {
         }
         return number;
     }
+
     // Create a new function called getHumanChoice
+    
     function getHumanChoice() {
     let choice = prompt('Rock, paper or scissors?');
 
@@ -54,6 +59,7 @@ function playGame() {function getComputerChoice() {
         alert("You win!");
     }
 }
+
 // Play the game 5 times and keep track of the score
 
 for (let i = 0; i < 5; i++) {
